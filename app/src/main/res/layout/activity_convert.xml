@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Convert">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Spinner
+                android:id="@+id/convert_spin1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textEnd"
+                android:layout_margin="16dp"/>
+
+            <Spinner
+                android:id="@+id/convert_spin2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textEnd"
+                android:layout_margin="16dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp">
+
+                <TextView
+                    android:id="@+id/convert_outval"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="الناتج"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/convert_str"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="سنتي الى انش"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"/>
+
+                <EditText
+                    android:id="@+id/convert_input"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="ادخل قيمة"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"/>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center">
+                <Button
+                    android:id="@+id/shape_ans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ادخل"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

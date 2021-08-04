@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Herafe">
+
+        <Button
+            android:id="@+id/act_btn_shape"
+            android:layout_marginTop="18dp"
+            android:layout_width="381.6dp"
+            android:layout_height="97.8dp"
+            android:background="@drawable/herafe_el1"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:id="@+id/act_btn_maslop"
+            android:layout_width="381.6dp"
+            android:layout_height="97.8dp"
+            android:background="@drawable/herafe_el2"
+            android:layout_marginTop="18dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/act_btn_shape"/>
+
+        <Button
+            android:id="@+id/act_btn_circle"
+            android:layout_width="381.6dp"
+            android:layout_height="97.8dp"
+            android:background="@drawable/herafe_el3"
+            android:layout_marginTop="18dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/act_btn_maslop"/>
+
+</RelativeLayout>

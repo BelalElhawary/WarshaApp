@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MetalWight">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/mw_spin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textEnd"/>
+
+
+            <ImageView
+                android:id="@+id/mw_img"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_below="@+id/mw_spin"/>
+
+            <EditText
+                android:id="@+id/mw_tall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="الطول"
+                android:layout_below="@+id/mw_img"/>
+
+            <EditText
+                android:id="@+id/mw_length"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="العرض"
+                android:layout_below="@id/mw_tall"/>
+
+            <EditText
+                android:id="@+id/mw_high"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="الارتفاع"
+                android:layout_below="@id/mw_length"/>
+
+            <Button
+                android:id="@+id/mw_enter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="ادخل"
+                android:layout_below="@id/mw_high"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="معلومات عن المعدن"
+                android:layout_gravity="center"
+                android:layout_below="@+id/mw_enter"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

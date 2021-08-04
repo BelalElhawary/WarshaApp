@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Warsha</string>
+    <string-array name="shapes_name">
+        <item>مساحة المربع</item>
+        <item>محيط المربع</item>
+        <item>مساحة الدائرة</item>
+        <item>محيط الدائرة</item>
+        <item>مساحة المثلث</item>
+        <item>محيط المثلث</item>
+        <item>مساحة المستطيل</item>
+        <item>محيط المستطيل</item>
+    </string-array>
+
+    <string-array name="metal_name">
+        <item>الحديد</item>
+        <item>النحاس</item>
+        <item>الالمونيم</item>
+        <item>الكروم</item>
+    </string-array>
+
+    <string-array name="convert_type_name">
+        <item>اطوال</item>
+        <item>اوزان</item>
+        <item>احجام</item>
+        <item>مساحات</item>
+    </string-array>
+
+    <string-array name="convert_type1_name">
+        <item>سنتي الى انش</item>
+        <item>انش الى سنتي</item>
+    </string-array>
+
+    <string name="about" translatable="false">تطبيق لمساعدة اي حرفي عربي لانة ببساطة يبحث عن القوانين و يبسطها للحرفي او الهاوي ويقوم بعمل اداة بحيث يأخذ منك القيم ويعطيك الناتج دون الحاجة لحفظ القانون او الدخول في معادلات رياضية فقط نقرة</string>
+    <string name="Q1" translatable="false">س : الفكرة بالفعل موجودة</string>
+    <string name="A1" translatable="false">بالرغم من وجود هذا النوع من البرامج باللغة الانجليزية قد بزل جهد لاخراجة بصورة تتماشى مع الحرفيين الناطقين باللغة العربية</string>
+    <string name="Q2" translatable="false">س : التطبيق به اخطاء</string>
+    <string name="A2" translatable="false">لا يوجد تطبيق بلا عيوب ونحن نعمل على تصليح اي مشكلة يتم الابلاغ عنها و محاولة تحسين تجربة المستخدم</string>
+    <string name="Q3" translatable="false">س : هل التطبيق موجة لفئة معينه</string>
+    <string name="A3" translatable="false">التطبيق به معادلات رياضية يمكن لاي من يحتاجها استخدامه مثلا في النجارة او الخراطة او الحدادة الخ</string>
+    <string name="Q4" translatable="false">س : ما هي الوحدات التي يعمل بها التطبيق</string>
+    <string name="A4" translatable="false">التطبيق يعمل بوحدة السنتي متر و الكيلو جرام و المتر لكل ثانية ولكن مستقبلا سنقوم بأضافة المزيد من الوحدات لتغيرها من الاعدادات</string>
+    <string name="Q5" translatable="false">س : ماذا ان لم اجد القانون او الاداة التي احتاجها</string>
+    <string name="A5" translatable="false">يمكنك ان تقوم بمراسلة المطور عن هذا على صفحة التطبيق وسيتم مراجعة طلبك لاضافة هذة الميزة في التحديثات مستقبلا</string>
+    <string name="Q6" translatable="false">س : التطبيق به اعلانات</string>
+    <string name="A6" translatable="false">اجل يوجد اعلانات بالتطبيق لان هذا يعتبر دعم للمطور لاسكمال العمل ودعم التطبيق وعمل برامج اخرى</string>
+    <string name="Q7" translatable="false">س : لماذا ليس على متجر التطبيقات</string>
+    <string name="A7" translatable="false">هذة الميزه تكلف المطور قليلا ولذلك سيتم ادراج التطبيق الى المتجر حالما تتاح فرصة ويمكنك تسريع ذلك عن طريق دعم المطور على منصة patreon</string>
+    <string name="Q8" translatable="false">س : من هو المطور</string>
+    <string name="A8" translatable="false">انا بلال محمد مطور مستقل وهذا التطبيق في الاصل طورته لمساعدة والدي في العمل و بعد ذلك قمت بنشرة ليستفيد منه الناس</string>
+    <string name="A9" translatable="false">هل لديك سؤال ليس مدرج في الاسئلة يمكنك التواصل معي على صفحتي الشخصية او صفحة التطبيق و سيتم الرد عليك</string>
+</resources>

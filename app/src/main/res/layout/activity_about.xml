@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="معلومات عن التطبيق"
+            android:textAlignment="center"
+            android:textSize="32sp"
+            android:padding="14dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:padding="14dp"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q1"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:padding="14dp"
+            android:textColor="@color/purple_700"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/A1"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:padding="14dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q2"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:padding="14dp"
+            android:textColor="@color/purple_700"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/A2"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:padding="14dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q3"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:padding="14dp"
+            android:textColor="@color/purple_700"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/A3"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:padding="14dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q4"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:padding="14dp"
+            android:textColor="@color/purple_700"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/A4"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:padding="14dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q5"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:padding="14dp"
+            android:textColor="@color/purple_700"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/A5"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:padding="14dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q6"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:padding="14dp"
+            android:textColor="@color/purple_700"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/A6"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:padding="14dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q7"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:padding="14dp"
+            android:textColor="@color/purple_700"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/A7"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:padding="14dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q8"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:padding="14dp"
+            android:textColor="@color/purple_700"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/A8"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:padding="14dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/A9"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:padding="14dp"
+            android:textColor="@color/teal_700"/>
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
